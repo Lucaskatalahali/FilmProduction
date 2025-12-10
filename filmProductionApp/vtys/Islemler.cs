@@ -63,7 +63,7 @@ namespace vtys
         {
             if (!int.TryParse(txtId.Text, out int id))
             {
-                MessageBox.Show("Lütfen minimum puan icin gecerli bir rakam girin.");
+                MessageBox.Show("Lütfen film ID'si icin gecerli bir tam sayi girin.");
                 return;
             }
 

@@ -233,11 +233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\vtys.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\vtys.csproj",
       "projectName": "vtys",
-      "projectPath": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\vtys.csproj",
+      "projectPath": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\vtys.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

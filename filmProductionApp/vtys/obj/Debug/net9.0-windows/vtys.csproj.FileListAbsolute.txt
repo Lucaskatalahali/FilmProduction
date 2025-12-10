@@ -44,3 +44,26 @@ C:\Users\HP\Documents\vtys (3)\vtys\obj\Debug\net9.0-windows\refint\vtys.dll
 C:\Users\HP\Documents\vtys (3)\vtys\obj\Debug\net9.0-windows\vtys.pdb
 C:\Users\HP\Documents\vtys (3)\vtys\obj\Debug\net9.0-windows\vtys.genruntimeconfig.cache
 C:\Users\HP\Documents\vtys (3)\vtys\obj\Debug\net9.0-windows\ref\vtys.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\vtys.exe
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\vtys.deps.json
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\vtys.runtimeconfig.json
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\vtys.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\vtys.pdb
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\bin\Debug\net9.0-windows\Npgsql.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.Form1.resources
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.Islemler.resources
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.csproj.GenerateResource.cache
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.AssemblyInfo.cs
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.csproj.Up2Date
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\refint\vtys.dll
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.pdb
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\vtys.genruntimeconfig.cache
+C:\Users\HP\Documents\filmProductionApp\vtys\obj\Debug\net9.0-windows\ref\vtys.dll

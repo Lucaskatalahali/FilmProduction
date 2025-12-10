@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|c:\\users\\hp\\documents\\vtys (3)\\vtys\\islemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|c:\\users\\hp\\documents\\filmproductionapp\\vtys\\islemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|solutionrelative:islemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|c:\\users\\hp\\documents\\vtys (3)\\vtys\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\islemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\islemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|solutionrelative:islemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|c:\\users\\hp\\documents\\filmproductionapp\\vtys\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|c:\\users\\hp\\documents\\filmproductionapp\\vtys\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{648394B9-6891-4FC7-B65C-151B58B684D8}|vtys.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADwBAAAAAAAAAAAwwBwBAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T12:37:34.217Z",
               "IsPinned": true,
@@ -46,36 +46,38 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Islemler.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Islemler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Islemler.cs",
               "RelativeDocumentMoniker": "Islemler.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Islemler.cs",
-              "RelativeToolTip": "Islemler.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAIwPIAAAAuAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Islemler.cs*",
+              "RelativeToolTip": "Islemler.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEEAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T17:27:21.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Islemler.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Islemler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Islemler.cs",
               "RelativeDocumentMoniker": "Islemler.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Islemler.cs [Projeto]",
-              "RelativeToolTip": "Islemler.cs [Projeto]",
+              "ToolTip": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Islemler.cs [Projeto]*",
+              "RelativeToolTip": "Islemler.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T17:15:05.13Z"
+              "WhenOpened": "2025-12-07T17:15:05.13Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\vtys (3)\\vtys\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\HP\\Documents\\filmProductionApp\\vtys\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:18:29.764Z"
+              "WhenOpened": "2025-12-07T12:18:29.764Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }
