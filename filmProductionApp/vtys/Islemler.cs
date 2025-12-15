@@ -42,7 +42,6 @@ namespace vtys
                 DataSet ds = new DataSet();
                 da.Fill(ds, "Filmler");
 
-                // 3. Nəticəni DataGridView-ə yükləyin
                 if (ds.Tables.Count > 0)
                 {
                     dataGridView1.DataSource = ds.Tables[0];
@@ -80,7 +79,6 @@ namespace vtys
                 DataSet ds = new DataSet();
                 da.Fill(ds, "Filmler");
 
-                // 3. Nəticəni DataGridView-ə yükləyin
                 if (ds.Tables.Count > 0)
                 {
                     dataGridView1.DataSource = ds.Tables[0];
@@ -100,7 +98,6 @@ namespace vtys
         {
             try
             {
-                // Tək JSON Obyektini DataGridView üçün Key/Value Cədvəlinə çevirmə
                 var jObject = JObject.Parse(json);
                 DataTable dt = new DataTable();
                 dt.Columns.Add("Key");
@@ -108,7 +105,6 @@ namespace vtys
 
                 foreach (var property in jObject.Properties())
                 {
-                    // Massivləri (məsələn, aktyorlar, rejissorlar) string kimi göstəririk
                     dt.Rows.Add(property.Name, property.Value.ToString());
                 }
 
@@ -117,7 +113,6 @@ namespace vtys
             catch (Exception ex)
             {
                 MessageBox.Show($"JSON-u DataGridView üçün formatlama zamanı xəta: {ex.Message}\nJSON: {json}");
-                // Xəta halında orijinal JSON-u görə bilmək üçün mesajı genişləndirə bilərsiniz.
             }
         }
 
@@ -172,52 +167,38 @@ namespace vtys
 
         }
 
-        // Certifique-se de que esta é a assinatura correta do seu evento
         private void btnPersonId_Click(object sender, EventArgs e)
         {
-            // NpgsqlCommand komut1 needs to be accessible in 'finally' block for disposal
             NpgsqlCommand cmd = null;
 
-            // --- 1. VALIDATION ---
-            // Check if the input is a valid integer ID
             if (!int.TryParse(txtPersonId.Text, out int personId))
             {
                 MessageBox.Show("Lütfen gecerli bir kisi ID'si girin.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            // ----------------------
 
             try
             {
-                // Open the connection (assumindo que 'baglanti' está acessível e configurada)
                 if (baglanti.State != ConnectionState.Open)
                     baglanti.Open();
 
-                // 2. DEFINE O PROCEDIMENTO
                 cmd = new NpgsqlCommand("get_person_full_info", baglanti);
-                // Informa ao Npgsql que estamos chamando um PROCEDURE (CALL)
                 cmd.CommandType = CommandType.StoredProcedure;
 
-                // 3. PARAMETRO IN (ENTRADA)
                 cmd.Parameters.AddWithValue("p_personid", personId);
 
-                // 4. PARAMETRO OUT (SAÍDA - O JSON)
                 NpgsqlParameter outParam = new NpgsqlParameter("result", NpgsqlTypes.NpgsqlDbType.Json);
                 outParam.Direction = ParameterDirection.Output;
                 cmd.Parameters.Add(outParam);
 
-                // 5. EXECUTA O PROCEDURE (ExecuteNonQuery é usado para CALL)
                 cmd.ExecuteNonQuery();
 
-                // 6. OBTÉM O RESULTADO JSON
                 if (outParam.Value != null && outParam.Value != DBNull.Value)
                 {
                     string jsonResult = outParam.Value.ToString();
 
-                    // Verifica se a base_info (person) foi encontrada (o JSON deve ser maior que um JSON vazio)
                     if (jsonResult.Length > 10)
                     {
-                        // *** CHAMA SUA FUNÇÃO EXISTENTE PARA EXIBIR O JSON NO DATAGRIDVIEW ***
                         DisplayJsonInDataGridView(jsonResult);
                     }
                     else
@@ -234,22 +215,18 @@ namespace vtys
             }
             catch (NpgsqlException ex)
             {
-                // Catch database errors (e.g., connection fail or procedure error)
                 MessageBox.Show("Veritabani Hatasi: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception ex)
             {
-                // Catch general application errors
                 MessageBox.Show("Bir hata oluştu: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
-                // Ensure connection is closed
                 if (baglanti != null && baglanti.State == ConnectionState.Open)
                 {
                     baglanti.Close();
                 }
-                // Dispose of the command object
                 if (cmd != null)
                 {
                     cmd.Dispose();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vtys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba164880e00e87539c683be874908f29adf2a85b")]
 [assembly: System.Reflection.AssemblyProductAttribute("vtys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vtys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
